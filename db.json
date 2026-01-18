@@ -1,0 +1,49 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Tarek",
+      "avatar": "https://i.pravatar.cc/150?img=1"
+    },
+    {
+      "id": 2,
+      "name": "Ali",
+      "avatar": "https://i.pravatar.cc/150?img=2"
+    },
+    {
+      "id": 3,
+      "name": "Sara",
+      "avatar": "https://i.pravatar.cc/150?img=3"
+    }
+  ],
+
+  "posts": [
+    {
+      "id": 1,
+      "userId": 1,
+      "title": "Welcome to Flutter",
+      "content": "This is my first post"
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "title": "Provider Tips",
+      "content": "State management made easy"
+    }
+  ],
+
+  "comments": [
+    {
+      "id": 1,
+      "postId": 1,
+      "userId": 2,
+      "content": "Nice post 👍"
+    },
+    {
+      "id": 2,
+      "postId": 1,
+      "userId": 3,
+      "content": "Welcome 👋"
+    }
+  ]
+}
