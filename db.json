@@ -1,34 +1,29 @@
 {
-  "users": [
-    {
-      "id": 1,
-      "name": "Tarek",
-      "avatar": "https://i.pravatar.cc/150?img=1"
-    },
-    {
-      "id": 2,
-      "name": "Ali",
-      "avatar": "https://i.pravatar.cc/150?img=2"
-    },
-    {
-      "id": 3,
-      "name": "Sara",
-      "avatar": "https://i.pravatar.cc/150?img=3"
-    }
-  ],
-
   "posts": [
     {
       "id": 1,
-      "userId": 1,
+      "userName": "Tarek",
+      "userImage":"https://static.toiimg.com/photo/80387977.cms?imgsize=179681",
       "title": "Welcome to Flutter",
-      "content": "This is my first post"
+      "content": "This is my first post",
+      "createdAt": "2024-01-01T10:00:00Z"
     },
     {
       "id": 2,
-      "userId": 2,
+      "userName": "Ali",
       "title": "Provider Tips",
-      "content": "State management made easy"
+      "userImage":"https://static.toiimg.com/photo/80387978.cms?imgsize=174948",
+      "content": "State management made easy",
+      "createdAt": "2024-01-02T14:30:00Z"
+    },
+    
+    {
+      "id": 2,
+      "userName": "Ali",
+      "title": "Provider Tips",
+      "userImage":"https://static.toiimg.com/photo/80387978.cms?imgsize=174948",
+      "content": "State management made easy",
+      "createdAt": "2024-01-02T14:30:00Z"
     }
   ],
 
@@ -36,14 +31,16 @@
     {
       "id": 1,
       "postId": 1,
-      "userId": 2,
-      "content": "Nice post 👍"
+      "userName": "Ali",
+      "content": "Nice post ",
+      "createdAt": "2024-01-01T11:00:00Z"
     },
     {
       "id": 2,
       "postId": 1,
-      "userId": 3,
-      "content": "Welcome 👋"
+      "userName": "Sara",
+      "content": "Welcome ",
+      "createdAt": "2024-01-01T12:15:00Z"
     }
   ]
 }
