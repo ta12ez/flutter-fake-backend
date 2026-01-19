@@ -4,25 +4,25 @@
       "id": 1,
       "userName": "Tarek",
       "userImage":"https://static.toiimg.com/photo/80387977.cms?imgsize=179681",
-      "title": "Welcome to Flutter",
+      "title": "first",
       "content": "This is my first post",
       "createdAt": "2024-01-01T10:00:00Z"
     },
     {
       "id": 2,
       "userName": "Ali",
-      "title": "Provider Tips",
+      "title": "second",
       "userImage":"https://static.toiimg.com/photo/80387978.cms?imgsize=174948",
-      "content": "State management made easy",
+      "content": "second post",
       "createdAt": "2024-01-02T14:30:00Z"
     },
     
     {
       "id": 3,
       "userName": "Ali",
-      "title": "Provider Tips",
+      "title": "third",
       "userImage":"https://static.toiimg.com/photo/80387978.cms?imgsize=174948",
-      "content": "State management made easy",
+      "content": "third post",
       "createdAt": "2024-01-02T14:30:00Z"
     }
   ],
